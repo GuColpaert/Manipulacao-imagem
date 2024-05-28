@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Estilo para um QPushButton com o nome btn_close */
+QPushButton#btn_init{
+    background-color: #48327B;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+QPushButton#btn_init:hover{
+    background-color: #332458;
+    color: white;
+}
+
+QPushButton#btn_close{
+    background-color: #2E2E2E;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+QPushButton#btn_close:hover{
+    background-color: #e44a4a;
+}
+
+QPushButton#btn_help{
+    background-color: #FEAB1E;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+QPushButton#btn_help:hover{
+    background-color: #d38f1b;
+}
+
+QPushButton#btn_upload{
+    background-color: #00AF5B;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+QPushButton#btn_upload:hover{
+    background-color: #008645;
+}
+
+QPushButton#btn_back{
+    background-color: #272727;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+QPushButton#btn_back:hover{
+    background-color: #1d1d1d;
+}
+
+QPushButton#btn_opcao{
+    background-color: #202020;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+QPushButton#btn_opcao:hover{
+    background-color: #621ed7;
+}
+
+QPushButton#btn_concluded{
+    background-color: #00AF5B;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+QMenu {
+    background-color: #202020; /* Cor de fundo do menu */
+    border: 1px solid black; /* Bordas do menu */
+    color: white;
+    font-weight: bold;
+}
+QMenu::item {
+    background-color: transparent; /* Cor de fundo dos itens */
+    padding: 10px 20px; /* Aumente o padding para aumentar o tamanho do item */
+    margin: 5px 10px; /* Margem dos itens */
+    font-size: 12px; /* Tamanho da fonte dos itens */
+}
+QMenu::item:selected {
+    background-color: #621ed7; /* Cor de fundo dos itens selecionados */
+}
